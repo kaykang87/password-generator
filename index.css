@@ -1,0 +1,104 @@
+/* 
+color: #fff;
+color: grey;
+color: #1f2937;
+color: #273549;
+color: #4adf86;
+color: #55f991;
+color: #10b981; 
+*/
+body {
+  background-color: #1c1c1c;
+  font-family: "Karla", sans-serif;
+  text-align: center;
+}
+
+hr.solid {
+  border-top: 0.5px solid #fff;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 0;
+  padding-top: 115px;
+}
+
+p {
+  margin-top: 0;
+  color: rgb(215, 202, 202);
+  font-size: 20px;
+}
+
+h1,
+p {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.container {
+  margin: 100px auto;
+  background-color: #1f2937;
+  max-width: 550px;
+  min-height: 550px;
+}
+
+.green-text {
+  color: #4adf86;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#generate-button {
+  font-size: 16px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: #10b981;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+}
+
+.password-container {
+  display: flex;
+  margin-top: 25px;
+  gap: 25px;
+  margin: 25px auto;
+}
+
+#new-pass-one,
+#new-pass-two {
+  width: 10rem;
+  height: 1rem;
+  background-color: #273549;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+#new-pass-one:hover,
+#new-pass-two:hover,
+#generate-button:hover {
+  background-color: rgb(43, 158, 101);
+  cursor: pointer;
+}
+
+button:active,
+#new-pass-one:active,
+#new-pass-two:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
